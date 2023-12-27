@@ -1,0 +1,54 @@
+body{
+    background-color: lightgray;
+}
+.titleNave{
+   display: flex;
+   justify-content: space-around;
+   max-width: 1100px;
+   padding: 5px;
+   border-radius: 10px;
+   background: purple;
+}
+.titleNave a{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: rgb(51, 255, 0) !important;
+}
+.logo{
+    color: yellow !important;
+}
+.logOut{
+    color: lightblue;
+    cursor: pointer;
+}
+
+/* navEnded */
+
+.titlePost{
+    margin-top: 20px;
+}
+.eNavigation{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px auto;
+}
+.course{
+    width: 100%;
+    background-color: rgb(142, 133, 52);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
